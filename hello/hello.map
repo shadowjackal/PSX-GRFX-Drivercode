@@ -1,0 +1,1282 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(crt0cxx.o)
+                              (_start)
+/home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(cxxglue.o)
+                              /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(crt0cxx.o) (cxxmain)
+/home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(application.o)
+                              hello.o (psyqo::Application::run())
+/home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+                              hello.o (psyqo::GPU::waitReady())
+/home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+                              /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(application.o) (psyqo::Kernel::abort(char const*))
+/home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(scene.o)
+                              hello.o (psyqo::Scene::gpu())
+/home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(fixed_pool.o)
+                              /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o) (eastl::fixed_pool_base::init(void*, unsigned int, unsigned int, unsigned int, unsigned int))
+/home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(printf.o)
+                              /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(application.o) (ramsyscall_printf)
+/home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(alloc.o)
+                              /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(application.o) (psyqo_heap_start)
+
+Discarded input sections
+
+ .group         0x0000000000000000        0x8 hello.o
+ .group         0x0000000000000000        0x8 hello.o
+ .group         0x0000000000000000        0x8 hello.o
+ .group         0x0000000000000000        0x8 hello.o
+ .group         0x0000000000000000       0x10 hello.o
+ .group         0x0000000000000000        0x8 hello.o
+ .group         0x0000000000000000        0x8 hello.o
+ .group         0x0000000000000000        0x8 hello.o
+ .group         0x0000000000000000       0x14 hello.o
+ .group         0x0000000000000000        0xc hello.o
+ .group         0x0000000000000000        0xc hello.o
+ .text          0x0000000000000000        0x0 hello.o
+ .reginfo       0x0000000000000000       0x18 hello.o
+ .MIPS.abiflags
+                0x0000000000000000       0x18 hello.o
+ .pdr           0x0000000000000000      0x280 hello.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 hello.o
+ .text          0x0000000000000000        0x0 fix16.o
+ .data          0x0000000000000000        0x0 fix16.o
+ .bss           0x0000000000000000        0x0 fix16.o
+ .reginfo       0x0000000000000000       0x18 fix16.o
+ .MIPS.abiflags
+                0x0000000000000000       0x18 fix16.o
+ .pdr           0x0000000000000000      0x180 fix16.o
+ .mdebug.abi32  0x0000000000000000        0x0 fix16.o
+ .text.fix16_add
+                0x0000000000000000       0x24 fix16.o
+ .text.fix16_sub
+                0x0000000000000000       0x24 fix16.o
+ .text.fix16_sadd
+                0x0000000000000000       0x3c fix16.o
+ .text.fix16_ssub
+                0x0000000000000000       0x3c fix16.o
+ .text.fix16_mul
+                0x0000000000000000       0x60 fix16.o
+ .text.fix16_smul
+                0x0000000000000000       0x48 fix16.o
+ .text.fix16_div
+                0x0000000000000000      0x184 fix16.o
+ .text.fix16_sdiv
+                0x0000000000000000       0x54 fix16.o
+ .text.fix16_mod
+                0x0000000000000000       0x18 fix16.o
+ .text.fix16_lerp8
+                0x0000000000000000       0x44 fix16.o
+ .text.fix16_lerp16
+                0x0000000000000000       0x44 fix16.o
+ .text.fix16_lerp32
+                0x0000000000000000       0x64 fix16.o
+ .debug_info    0x0000000000000000      0x94e fix16.o
+ .debug_abbrev  0x0000000000000000      0x20e fix16.o
+ .debug_loc     0x0000000000000000      0xb3c fix16.o
+ .debug_aranges
+                0x0000000000000000       0x78 fix16.o
+ .debug_ranges  0x0000000000000000      0x128 fix16.o
+ .debug_line    0x0000000000000000      0x4a1 fix16.o
+ .debug_str     0x0000000000000000      0x3be fix16.o
+ .comment       0x0000000000000000       0x26 fix16.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 fix16.o
+ .debug_frame   0x0000000000000000      0x13c fix16.o
+ .gnu.attributes
+                0x0000000000000000       0x10 fix16.o
+ .text          0x0000000000000000        0x0 fix16_exp.o
+ .data          0x0000000000000000        0x0 fix16_exp.o
+ .bss           0x0000000000000000     0x8000 fix16_exp.o
+ .reginfo       0x0000000000000000       0x18 fix16_exp.o
+ .MIPS.abiflags
+                0x0000000000000000       0x18 fix16_exp.o
+ .pdr           0x0000000000000000       0xa0 fix16_exp.o
+ .mdebug.abi32  0x0000000000000000        0x0 fix16_exp.o
+ .text.fix16__log2_inner
+                0x0000000000000000       0xc0 fix16_exp.o
+ .text.fix16_exp
+                0x0000000000000000      0x18c fix16_exp.o
+ .text.fix16_log
+                0x0000000000000000      0x108 fix16_exp.o
+ .text.fix16_log2
+                0x0000000000000000       0x5c fix16_exp.o
+ .text.fix16_slog2
+                0x0000000000000000        0x8 fix16_exp.o
+ .debug_info    0x0000000000000000      0x638 fix16_exp.o
+ .debug_abbrev  0x0000000000000000      0x28b fix16_exp.o
+ .debug_loc     0x0000000000000000      0x4e2 fix16_exp.o
+ .debug_aranges
+                0x0000000000000000       0x40 fix16_exp.o
+ .debug_ranges  0x0000000000000000       0xc8 fix16_exp.o
+ .debug_line    0x0000000000000000      0x3ff fix16_exp.o
+ .debug_str     0x0000000000000000      0x362 fix16_exp.o
+ .comment       0x0000000000000000       0x26 fix16_exp.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 fix16_exp.o
+ .debug_frame   0x0000000000000000       0xd4 fix16_exp.o
+ .gnu.attributes
+                0x0000000000000000       0x10 fix16_exp.o
+ .text          0x0000000000000000        0x0 fix16_sqrt.o
+ .data          0x0000000000000000        0x0 fix16_sqrt.o
+ .bss           0x0000000000000000        0x0 fix16_sqrt.o
+ .reginfo       0x0000000000000000       0x18 fix16_sqrt.o
+ .MIPS.abiflags
+                0x0000000000000000       0x18 fix16_sqrt.o
+ .pdr           0x0000000000000000       0x20 fix16_sqrt.o
+ .mdebug.abi32  0x0000000000000000        0x0 fix16_sqrt.o
+ .text.fix16_sqrt
+                0x0000000000000000       0xd4 fix16_sqrt.o
+ .debug_info    0x0000000000000000      0x1e5 fix16_sqrt.o
+ .debug_abbrev  0x0000000000000000       0xc8 fix16_sqrt.o
+ .debug_loc     0x0000000000000000      0x122 fix16_sqrt.o
+ .debug_aranges
+                0x0000000000000000       0x20 fix16_sqrt.o
+ .debug_ranges  0x0000000000000000       0x10 fix16_sqrt.o
+ .debug_line    0x0000000000000000      0x19e fix16_sqrt.o
+ .debug_str     0x0000000000000000      0x291 fix16_sqrt.o
+ .comment       0x0000000000000000       0x26 fix16_sqrt.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 fix16_sqrt.o
+ .debug_frame   0x0000000000000000       0x20 fix16_sqrt.o
+ .gnu.attributes
+                0x0000000000000000       0x10 fix16_sqrt.o
+ .text          0x0000000000000000        0x0 fix16_str.o
+ .data          0x0000000000000000        0x0 fix16_str.o
+ .bss           0x0000000000000000        0x0 fix16_str.o
+ .reginfo       0x0000000000000000       0x18 fix16_str.o
+ .MIPS.abiflags
+                0x0000000000000000       0x18 fix16_str.o
+ .pdr           0x0000000000000000       0x40 fix16_str.o
+ .mdebug.abi32  0x0000000000000000        0x0 fix16_str.o
+ .text.fix16_to_str
+                0x0000000000000000      0x168 fix16_str.o
+ .text.fix16_from_str
+                0x0000000000000000      0x1b8 fix16_str.o
+ .rodata        0x0000000000000000       0x20 fix16_str.o
+ .debug_info    0x0000000000000000      0x4ae fix16_str.o
+ .debug_abbrev  0x0000000000000000      0x1fd fix16_str.o
+ .debug_loc     0x0000000000000000      0x4f0 fix16_str.o
+ .debug_aranges
+                0x0000000000000000       0x28 fix16_str.o
+ .debug_ranges  0x0000000000000000       0x98 fix16_str.o
+ .debug_line    0x0000000000000000      0x306 fix16_str.o
+ .debug_str     0x0000000000000000      0x397 fix16_str.o
+ .comment       0x0000000000000000       0x26 fix16_str.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 fix16_str.o
+ .debug_frame   0x0000000000000000       0x64 fix16_str.o
+ .gnu.attributes
+                0x0000000000000000       0x10 fix16_str.o
+ .text          0x0000000000000000        0x0 fix16_trig.o
+ .data          0x0000000000000000        0x0 fix16_trig.o
+ .bss           0x0000000000000000    0x14000 fix16_trig.o
+ .reginfo       0x0000000000000000       0x18 fix16_trig.o
+ .MIPS.abiflags
+                0x0000000000000000       0x18 fix16_trig.o
+ .pdr           0x0000000000000000      0x100 fix16_trig.o
+ .mdebug.abi32  0x0000000000000000        0x0 fix16_trig.o
+ .text.fix16_sin_parabola
+                0x0000000000000000       0x90 fix16_trig.o
+ .text.fix16_sin
+                0x0000000000000000      0x198 fix16_trig.o
+ .text.fix16_cos
+                0x0000000000000000       0x10 fix16_trig.o
+ .text.fix16_tan
+                0x0000000000000000       0x40 fix16_trig.o
+ .text.fix16_atan2
+                0x0000000000000000      0x18c fix16_trig.o
+ .text.fix16_atan
+                0x0000000000000000        0x8 fix16_trig.o
+ .text.fix16_asin
+                0x0000000000000000       0x78 fix16_trig.o
+ .text.fix16_acos
+                0x0000000000000000       0x28 fix16_trig.o
+ .debug_info    0x0000000000000000      0x7a3 fix16_trig.o
+ .debug_abbrev  0x0000000000000000      0x1ec fix16_trig.o
+ .debug_loc     0x0000000000000000      0x698 fix16_trig.o
+ .debug_aranges
+                0x0000000000000000       0x58 fix16_trig.o
+ .debug_ranges  0x0000000000000000       0x80 fix16_trig.o
+ .debug_line    0x0000000000000000      0x3c7 fix16_trig.o
+ .debug_str     0x0000000000000000      0x3bc fix16_trig.o
+ .comment       0x0000000000000000       0x26 fix16_trig.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 fix16_trig.o
+ .debug_frame   0x0000000000000000      0x12c fix16_trig.o
+ .gnu.attributes
+                0x0000000000000000       0x10 fix16_trig.o
+ .text          0x0000000000000000        0x0 fract32.o
+ .data          0x0000000000000000        0x0 fract32.o
+ .bss           0x0000000000000000        0x0 fract32.o
+ .reginfo       0x0000000000000000       0x18 fract32.o
+ .MIPS.abiflags
+                0x0000000000000000       0x18 fract32.o
+ .pdr           0x0000000000000000       0x80 fract32.o
+ .mdebug.abi32  0x0000000000000000        0x0 fract32.o
+ .text.fract32_create
+                0x0000000000000000       0x50 fract32.o
+ .text.fract32_invert
+                0x0000000000000000        0x8 fract32.o
+ .text.fract32_usmul
+                0x0000000000000000       0x10 fract32.o
+ .text.fract32_smul
+                0x0000000000000000       0x58 fract32.o
+ .debug_info    0x0000000000000000      0x207 fract32.o
+ .debug_abbrev  0x0000000000000000      0x107 fract32.o
+ .debug_loc     0x0000000000000000      0x13d fract32.o
+ .debug_aranges
+                0x0000000000000000       0x38 fract32.o
+ .debug_ranges  0x0000000000000000       0x40 fract32.o
+ .debug_line    0x0000000000000000      0x121 fract32.o
+ .debug_str     0x0000000000000000      0x22c fract32.o
+ .comment       0x0000000000000000       0x26 fract32.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 fract32.o
+ .debug_frame   0x0000000000000000       0x50 fract32.o
+ .gnu.attributes
+                0x0000000000000000       0x10 fract32.o
+ .text          0x0000000000000000        0x0 uint32.o
+ .data          0x0000000000000000        0x0 uint32.o
+ .bss           0x0000000000000000        0x0 uint32.o
+ .reginfo       0x0000000000000000       0x18 uint32.o
+ .MIPS.abiflags
+                0x0000000000000000       0x18 uint32.o
+ .pdr           0x0000000000000000       0x20 uint32.o
+ .mdebug.abi32  0x0000000000000000        0x0 uint32.o
+ .text.uint32_log2
+                0x0000000000000000       0x7c uint32.o
+ .debug_info    0x0000000000000000       0xa9 uint32.o
+ .debug_abbrev  0x0000000000000000       0x7d uint32.o
+ .debug_loc     0x0000000000000000       0x7a uint32.o
+ .debug_aranges
+                0x0000000000000000       0x20 uint32.o
+ .debug_ranges  0x0000000000000000       0x10 uint32.o
+ .debug_line    0x0000000000000000      0x13c uint32.o
+ .debug_str     0x0000000000000000      0x1b9 uint32.o
+ .comment       0x0000000000000000       0x26 uint32.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 uint32.o
+ .debug_frame   0x0000000000000000       0x20 uint32.o
+ .gnu.attributes
+                0x0000000000000000       0x10 uint32.o
+ .text          0x0000000000000000        0x0 mtxstuff.o
+ .data          0x0000000000000000        0x0 mtxstuff.o
+ .bss           0x0000000000000000        0x0 mtxstuff.o
+ .reginfo       0x0000000000000000       0x18 mtxstuff.o
+ .MIPS.abiflags
+                0x0000000000000000       0x18 mtxstuff.o
+ .pdr           0x0000000000000000       0x80 mtxstuff.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 mtxstuff.o
+ .data          0x0000000000000000        0x0 mulmat0.o
+ .bss           0x0000000000000000        0x0 mulmat0.o
+ .reginfo       0x0000000000000000       0x18 mulmat0.o
+ .MIPS.abiflags
+                0x0000000000000000       0x18 mulmat0.o
+ .bss           0x0000000000000000        0x0 pushpop.o
+ .reginfo       0x0000000000000000       0x18 pushpop.o
+ .MIPS.abiflags
+                0x0000000000000000       0x18 pushpop.o
+ .data          0x0000000000000000        0x0 InitGeom.o
+ .bss           0x0000000000000000        0x0 InitGeom.o
+ .reginfo       0x0000000000000000       0x18 InitGeom.o
+ .MIPS.abiflags
+                0x0000000000000000       0x18 InitGeom.o
+ .text          0x0000000000000000        0x0 sissycalls.o
+ .data          0x0000000000000000        0x0 sissycalls.o
+ .bss           0x0000000000000000        0x0 sissycalls.o
+ .reginfo       0x0000000000000000       0x18 sissycalls.o
+ .MIPS.abiflags
+                0x0000000000000000       0x18 sissycalls.o
+ .text.SwEnterCriticalSection
+                0x0000000000000000       0x1c sissycalls.o
+ .text.SwExitCriticalSection
+                0x0000000000000000       0x1c sissycalls.o
+ .text          0x0000000000000000        0x0 stdio.o
+ .data          0x0000000000000000        0x0 stdio.o
+ .bss           0x0000000000000000        0x0 stdio.o
+ .reginfo       0x0000000000000000       0x18 stdio.o
+ .MIPS.abiflags
+                0x0000000000000000       0x18 stdio.o
+ .pdr           0x0000000000000000      0x1e0 stdio.o
+ .mdebug.abi32  0x0000000000000000        0x0 stdio.o
+ .text.psxopen  0x0000000000000000       0xd4 stdio.o
+ .rodata.str1.4
+                0x0000000000000000       0x48 stdio.o
+ .text.psxlseek
+                0x0000000000000000       0xb4 stdio.o
+ .text.psxread  0x0000000000000000      0x130 stdio.o
+ .text.psxwrite
+                0x0000000000000000      0x120 stdio.o
+ .text.psxclose
+                0x0000000000000000       0x84 stdio.o
+ .text.reopenStdio
+                0x0000000000000000       0x58 stdio.o
+ .text.installStdIo
+                0x0000000000000000       0x88 stdio.o
+ .text.psxioctl
+                0x0000000000000000       0xc4 stdio.o
+ .text.psxgetc  0x0000000000000000       0x30 stdio.o
+ .text.psxputc  0x0000000000000000       0x30 stdio.o
+ .text.psxputchar
+                0x0000000000000000       0x84 stdio.o
+ .text.psxgetchar
+                0x0000000000000000       0x2c stdio.o
+ .text.psxgets  0x0000000000000000      0x18c stdio.o
+ .text.psxputs  0x0000000000000000       0x4c stdio.o
+ .text.psxprintf
+                0x0000000000000000       0x20 stdio.o
+ .sbss          0x0000000000000000        0x4 stdio.o
+ .debug_info    0x0000000000000000      0xffb stdio.o
+ .debug_abbrev  0x0000000000000000      0x3fa stdio.o
+ .debug_loc     0x0000000000000000      0x8dd stdio.o
+ .debug_aranges
+                0x0000000000000000       0x90 stdio.o
+ .debug_ranges  0x0000000000000000      0x118 stdio.o
+ .debug_line    0x0000000000000000      0x915 stdio.o
+ .debug_str     0x0000000000000000      0x808 stdio.o
+ .comment       0x0000000000000000       0x26 stdio.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 stdio.o
+ .debug_frame   0x0000000000000000      0x228 stdio.o
+ .gnu.attributes
+                0x0000000000000000       0x10 stdio.o
+ .text          0x0000000000000000        0x0 filesystem.o
+ .data          0x0000000000000000        0x0 filesystem.o
+ .bss           0x0000000000000000        0x0 filesystem.o
+ .reginfo       0x0000000000000000       0x18 filesystem.o
+ .MIPS.abiflags
+                0x0000000000000000       0x18 filesystem.o
+ .pdr           0x0000000000000000       0x60 filesystem.o
+ .mdebug.abi32  0x0000000000000000        0x0 filesystem.o
+ .text.firstFile
+                0x0000000000000000       0xc8 filesystem.o
+ .text.nextFile
+                0x0000000000000000       0x24 filesystem.o
+ .text.format   0x0000000000000000       0xac filesystem.o
+ .debug_info    0x0000000000000000      0x71f filesystem.o
+ .debug_abbrev  0x0000000000000000      0x1ae filesystem.o
+ .debug_loc     0x0000000000000000      0x193 filesystem.o
+ .debug_aranges
+                0x0000000000000000       0x30 filesystem.o
+ .debug_ranges  0x0000000000000000       0x20 filesystem.o
+ .debug_line    0x0000000000000000      0x28b filesystem.o
+ .debug_str     0x0000000000000000      0x53d filesystem.o
+ .comment       0x0000000000000000       0x26 filesystem.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 filesystem.o
+ .debug_frame   0x0000000000000000       0x68 filesystem.o
+ .gnu.attributes
+                0x0000000000000000       0x10 filesystem.o
+ .text          0x0000000000000000        0x0 misc.o
+ .data          0x0000000000000000        0x0 misc.o
+ .bss           0x0000000000000000      0x5f0 misc.o
+ .reginfo       0x0000000000000000       0x18 misc.o
+ .MIPS.abiflags
+                0x0000000000000000       0x18 misc.o
+ .pdr           0x0000000000000000      0x1e0 misc.o
+ .mdebug.abi32  0x0000000000000000        0x0 misc.o
+ .text.setupFileIO
+                0x0000000000000000       0xd0 misc.o
+ .text.getDeviceStatus
+                0x0000000000000000       0x10 misc.o
+ .text.setDeviceStatus
+                0x0000000000000000        0xc misc.o
+ .rodata.str1.4
+                0x0000000000000000       0x6c misc.o
+ .text.printInstalledDevices
+                0x0000000000000000       0x6c misc.o
+ .text.findDevice
+                0x0000000000000000       0xa0 misc.o
+ .text.removeDevice
+                0x0000000000000000       0x94 misc.o
+ .text.getFileFromHandle
+                0x0000000000000000       0x2c misc.o
+ .text.ioabortraw
+                0x0000000000000000       0x18 misc.o
+ .text.ioAbortWithMsg
+                0x0000000000000000       0x2c misc.o
+ .text.findEmptyFile
+                0x0000000000000000       0x5c misc.o
+ .text.splitFilepathAndFindDevice
+                0x0000000000000000      0x170 misc.o
+ .text.cdevscan
+                0x0000000000000000       0x68 misc.o
+ .text.psxexit  0x0000000000000000       0x68 misc.o
+ .text.isFileConsole
+                0x0000000000000000       0x44 misc.o
+ .text.addDevice
+                0x0000000000000000       0x88 misc.o
+ .sbss          0x0000000000000000        0x4 misc.o
+ .debug_info    0x0000000000000000     0x1429 misc.o
+ .debug_abbrev  0x0000000000000000      0x44d misc.o
+ .debug_loc     0x0000000000000000      0x619 misc.o
+ .debug_aranges
+                0x0000000000000000       0x90 misc.o
+ .debug_ranges  0x0000000000000000      0x190 misc.o
+ .debug_line    0x0000000000000000      0x998 misc.o
+ .debug_str     0x0000000000000000      0x9b8 misc.o
+ .comment       0x0000000000000000       0x26 misc.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 misc.o
+ .debug_frame   0x0000000000000000      0x1f0 misc.o
+ .gnu.attributes
+                0x0000000000000000       0x10 misc.o
+ .text          0x0000000000000000        0x0 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(crt0cxx.o)
+ .data          0x0000000000000000        0x0 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(crt0cxx.o)
+ .bss           0x0000000000000000        0x0 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(crt0cxx.o)
+ .reginfo       0x0000000000000000       0x18 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(crt0cxx.o)
+ .MIPS.abiflags
+                0x0000000000000000       0x18 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(crt0cxx.o)
+ .text          0x0000000000000000        0x0 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(cxxglue.o)
+ .data          0x0000000000000000        0x0 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(cxxglue.o)
+ .reginfo       0x0000000000000000       0x18 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(cxxglue.o)
+ .MIPS.abiflags
+                0x0000000000000000       0x18 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(cxxglue.o)
+ .pdr           0x0000000000000000      0x240 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(cxxglue.o)
+ .text.__cxa_pure_virtual
+                0x0000000000000000        0x8 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(cxxglue.o)
+ .text.__builtin_new
+                0x0000000000000000       0x20 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(cxxglue.o)
+ .text.__builtin_delete
+                0x0000000000000000        0x8 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(cxxglue.o)
+ .text._Znwj    0x0000000000000000       0x20 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(cxxglue.o)
+ .text._Znaj    0x0000000000000000       0x20 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(cxxglue.o)
+ .text._ZdlPv   0x0000000000000000        0x8 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(cxxglue.o)
+ .text._ZdaPv   0x0000000000000000        0x8 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(cxxglue.o)
+ .text._ZdlPvj  0x0000000000000000        0x8 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(cxxglue.o)
+ .text._ZdaPvj  0x0000000000000000        0x8 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(cxxglue.o)
+ .text.memcpy   0x0000000000000000       0x2c /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(cxxglue.o)
+ .text.memcmp   0x0000000000000000       0x50 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(cxxglue.o)
+ .text.memset   0x0000000000000000       0x24 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(cxxglue.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(cxxglue.o)
+ .text          0x0000000000000000        0x0 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(application.o)
+ .data          0x0000000000000000        0x0 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(application.o)
+ .bss           0x0000000000000000        0x0 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(application.o)
+ .reginfo       0x0000000000000000       0x18 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(application.o)
+ .MIPS.abiflags
+                0x0000000000000000       0x18 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(application.o)
+ .pdr           0x0000000000000000       0x80 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(application.o)
+ .text._ZN5psyqo11Application8popSceneEv
+                0x0000000000000000       0x90 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(application.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(application.o)
+ .group         0x0000000000000000        0x8 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .group         0x0000000000000000        0x8 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .group         0x0000000000000000        0xc /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .group         0x0000000000000000        0x8 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .group         0x0000000000000000        0xc /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .group         0x0000000000000000        0xc /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .group         0x0000000000000000        0x8 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .group         0x0000000000000000        0x8 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .group         0x0000000000000000        0xc /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .group         0x0000000000000000        0xc /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .group         0x0000000000000000        0xc /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .text          0x0000000000000000        0x0 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .data          0x0000000000000000        0x0 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .reginfo       0x0000000000000000       0x18 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .MIPS.abiflags
+                0x0000000000000000       0x18 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .pdr           0x0000000000000000      0x6c0 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .text._ZN5eastl8internal15function_detailILi8EFvvEE14DefaultInvokerERKNS0_15functor_storageILi8EEE
+                0x0000000000000000        0x8 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .text._ZN5eastl8internal20function_base_detailILi8EE21function_manager_baseIZN5psyqo3GPU12uploadToVRAMEPKtNS4_4RectEEUlvE_vE7ManagerEPvSB_NS2_17ManagerOperationsE
+                0x0000000000000000       0x2c /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .text._ZN5eastl8internal20function_base_detailILi8EE21function_manager_baseIZN5psyqo3GPU12sendFragmentEPKjjEUlvE_vE7ManagerEPvSA_NS2_17ManagerOperationsE
+                0x0000000000000000       0x2c /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .text._ZN5eastl8internal20function_base_detailILi8EE21function_manager_baseIZN5psyqo3GPU9sendChainEvEUlvE_vE7ManagerEPvS8_NS2_17ManagerOperationsE
+                0x0000000000000000       0x2c /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .text._ZN5eastl8internal15function_detailILi8EFvjEE14DefaultInvokerEjRKNS0_15functor_storageILi8EEE
+                0x0000000000000000        0x8 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .text._ZN5eastl8internal20function_base_detailILi8EE16function_managerIZN5psyqo3GPU9sendChainEvEUlvE_vJEE7InvokerERKNS0_15functor_storageILi8EEE
+                0x0000000000000000       0x14 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .text._ZN5eastl8internal20function_base_detailILi8EE16function_managerIZN5psyqo3GPU12sendFragmentEPKjjEUlvE_vJEE7InvokerERKNS0_15functor_storageILi8EEE
+                0x0000000000000000       0x14 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .text._ZN5eastl8internal20function_base_detailILi8EE16function_managerIZN5psyqo3GPU12uploadToVRAMEPKtNS4_4RectEEUlvE_vJEE7InvokerERKNS0_15functor_storageILi8EEE
+                0x0000000000000000       0x14 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .text._ZN5psyqo3GPU14getNextScissorERNS_4Prim7ScissorE
+                0x0000000000000000       0x84 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .text._ZNK5psyqo3GPU12getNextClearERNS_4Prim8FastFillENS_5ColorE
+                0x0000000000000000       0x48 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .text._ZN5psyqo3GPU5chainEPjj
+                0x0000000000000000       0x80 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .text._ZNK5psyqo3GPU11isChainIdleEv
+                0x0000000000000000        0xc /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .text._ZNK5psyqo3GPU19isChainTransferringEv
+                0x0000000000000000       0x14 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .text._ZNK5psyqo3GPU18isChainTransferredEv
+                0x0000000000000000       0x14 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .text._ZN5psyqo3GPU17changeTimerPeriodEjjb
+                0x0000000000000000       0x7c /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .text._ZN5psyqo3GPU10pauseTimerEj
+                0x0000000000000000       0x58 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .text._ZN5psyqo3GPU11resumeTimerEj
+                0x0000000000000000       0x58 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .text._ZN5psyqo3GPU14disableScissorEv
+                0x0000000000000000       0x28 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .text._ZN5psyqo3GPU12sendFragmentEPKjjON5eastl8functionIFvvEEENS_3DMA11DmaCallbackE
+                0x0000000000000000      0x148 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .text._ZN5psyqo3GPU12uploadToVRAMEPKtNS_4RectEON5eastl8functionIFvvEEENS_3DMA11DmaCallbackE
+                0x0000000000000000      0x1a0 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .text._ZN5psyqo3GPU12uploadToVRAMEPKtNS_4RectE
+                0x0000000000000000       0x90 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .text._ZN5psyqo3GPU12sendFragmentEPKjj
+                0x0000000000000000       0x7c /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .text._ZN5psyqo3GPU9sendChainEv
+                0x0000000000000000       0x78 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .text._ZN5psyqo3GPU11cancelTimerEj
+                0x0000000000000000       0x34 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .text._ZN5eastl8internal15function_detailILi8EFvjEEC2EOS3_
+                0x0000000000000000       0x70 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .text._ZN5eastl24fixed_pool_with_overflowINS_9allocatorEE8allocateEv
+                0x0000000000000000       0x44 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .text._ZN5psyqo3GPU16armPeriodicTimerEjON5eastl8functionIFvjEEE
+                0x0000000000000000       0xa0 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .text._ZN5psyqo3GPU8armTimerEjON5eastl8functionIFvjEEE
+                0x0000000000000000       0x8c /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .group         0x0000000000000000        0x8 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+ .group         0x0000000000000000        0x8 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+ .group         0x0000000000000000        0x8 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+ .group         0x0000000000000000        0xc /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+ .group         0x0000000000000000        0xc /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+ .group         0x0000000000000000        0xc /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+ .group         0x0000000000000000        0xc /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+ .group         0x0000000000000000        0xc /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+ .group         0x0000000000000000        0xc /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+ .group         0x0000000000000000        0xc /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+ .group         0x0000000000000000        0xc /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+ .group         0x0000000000000000        0xc /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+ .text          0x0000000000000000        0x0 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+ .data          0x0000000000000000        0x0 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+ .reginfo       0x0000000000000000       0x18 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+ .MIPS.abiflags
+                0x0000000000000000       0x18 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+ .pdr           0x0000000000000000      0x460 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+ .text._ZN5eastl8internal15function_detailILi8EFvvEE14DefaultInvokerERKNS0_15functor_storageILi8EEE
+                0x0000000000000000        0x8 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+ .text._ZN5psyqo6Kernel10disableDmaENS0_3DMAE
+                0x0000000000000000       0x48 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+ .text._ZN5eastl8internal15function_detailILi8EFvvEE7DestroyEv
+                0x0000000000000000       0x20 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+ .text._ZN5psyqo6Kernel18unregisterDmaEventEj
+                0x0000000000000000       0x94 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+ .text._ZN5psyqo6Kernel13queueCallbackEON5eastl8functionIFvvEEE
+                0x0000000000000000       0xe8 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+ .text._ZN5psyqo6Kernel8Internal14addInitializerEON5eastl8functionIFvvEEE
+                0x0000000000000000      0x12c /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+ .text._ZN5psyqo6Kernel8Internal10addOnFrameEON5eastl8functionIFvvEEE
+                0x0000000000000000      0x12c /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+ .text          0x0000000000000000        0x0 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(scene.o)
+ .data          0x0000000000000000        0x0 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(scene.o)
+ .bss           0x0000000000000000        0x0 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(scene.o)
+ .reginfo       0x0000000000000000       0x18 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(scene.o)
+ .MIPS.abiflags
+                0x0000000000000000       0x18 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(scene.o)
+ .pdr           0x0000000000000000       0x60 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(scene.o)
+ .text._ZN5psyqo5Scene9pushSceneEPS0_
+                0x0000000000000000        0xc /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(scene.o)
+ .text._ZN5psyqo5Scene8popSceneEv
+                0x0000000000000000        0xc /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(scene.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(scene.o)
+ .text          0x0000000000000000        0x0 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(fixed_pool.o)
+ .data          0x0000000000000000        0x0 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(fixed_pool.o)
+ .bss           0x0000000000000000        0x0 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(fixed_pool.o)
+ .reginfo       0x0000000000000000       0x18 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(fixed_pool.o)
+ .MIPS.abiflags
+                0x0000000000000000       0x18 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(fixed_pool.o)
+ .pdr           0x0000000000000000       0x20 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(fixed_pool.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(fixed_pool.o)
+ .text          0x0000000000000000        0x0 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(printf.o)
+ .data          0x0000000000000000        0x0 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(printf.o)
+ .bss           0x0000000000000000        0x0 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(printf.o)
+ .reginfo       0x0000000000000000       0x18 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(printf.o)
+ .MIPS.abiflags
+                0x0000000000000000       0x18 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(printf.o)
+ .text          0x0000000000000000        0x0 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(alloc.o)
+ .data          0x0000000000000000        0x0 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(alloc.o)
+ .bss           0x0000000000000000        0x0 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(alloc.o)
+ .reginfo       0x0000000000000000       0x18 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(alloc.o)
+ .MIPS.abiflags
+                0x0000000000000000       0x18 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(alloc.o)
+ .pdr           0x0000000000000000      0x1a0 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(alloc.o)
+ .text.__builtin_new
+                0x0000000000000000        0x8 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(alloc.o)
+ .text.__builtin_delete
+                0x0000000000000000        0x8 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(alloc.o)
+ .text._Znaj    0x0000000000000000        0x8 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(alloc.o)
+ .text._ZdlPv   0x0000000000000000        0x8 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(alloc.o)
+ .text._ZdaPvj  0x0000000000000000        0x8 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(alloc.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(alloc.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+loader           0x000000008000f800 0x0000000000000800
+ram              0x0000000080010000 0x00000000001f0000 xrw
+dcache           0x000000001f800000 0x0000000000000400
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD hello.o
+LOAD fix16.o
+LOAD fix16_exp.o
+LOAD fix16_sqrt.o
+LOAD fix16_str.o
+LOAD fix16_trig.o
+LOAD fract32.o
+LOAD uint32.o
+LOAD mtxstuff.o
+LOAD mulmat0.o
+LOAD pushpop.o
+LOAD InitGeom.o
+LOAD sissycalls.o
+LOAD stdio.o
+LOAD filesystem.o
+LOAD misc.o
+LOAD /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a
+                0x0000000080018390                __heap_base = __bss_end
+                0x0000000080010000                TLOAD_ADDR = DEFINED (TLOAD_ADDR)?TLOAD_ADDR:0x80010000
+                0x0000000080200000                __ram_top = (ORIGIN (ram) + LENGTH (ram))
+                0x00000000801fff00                __sp = (__ram_top - 0x100)
+                0x000000001f800000                __dcache = ORIGIN (dcache)
+                0x000000001f800400                __dcache_top = (ORIGIN (dcache) + LENGTH (dcache))
+                0x0000000000005390                __bss_len = (__bss_end - __bss_start)
+                0x00000000000028f0                __ftext_len = (__ftext_end - __ftext_start)
+                0x0000000000000710                __fdata_len = (__fdata_end - __fdata_start)
+                0x0000000080200000                __stack_start = (ORIGIN (ram) + LENGTH (ram))
+
+.PSX_EXE_Header
+                0x000000008000f800      0x800
+                0x000000008000f800        0x1 BYTE 0x50
+                0x000000008000f801        0x1 BYTE 0x53
+                0x000000008000f802        0x1 BYTE 0x2d
+                0x000000008000f803        0x1 BYTE 0x58
+                0x000000008000f804        0x1 BYTE 0x20
+                0x000000008000f805        0x1 BYTE 0x45
+                0x000000008000f806        0x1 BYTE 0x58
+                0x000000008000f807        0x1 BYTE 0x45
+                0x000000008000f808        0x4 LONG 0x0
+                0x000000008000f80c        0x4 LONG 0x0
+                0x000000008000f810        0x4 LONG 0x80010000 ABSOLUTE (_start)
+                0x000000008000f814        0x4 LONG 0x0
+                0x000000008000f818        0x4 LONG 0x80010000 TLOAD_ADDR
+                0x000000008000f81c        0x4 LONG 0x3000 (__ftext_len + __fdata_len)
+                0x000000008000f820        0x4 LONG 0x0
+                0x000000008000f824        0x4 LONG 0x0
+                0x000000008000f828        0x4 LONG 0x0
+                0x000000008000f82c        0x4 LONG 0x0
+                0x000000008000f830        0x4 LONG 0x801fff00 DEFINED (_sp)?ABSOLUTE (_sp):0x801fff00
+                0x000000008000f834        0x4 LONG 0x0
+                0x0000000080010000                . = (. + 0x7c8)
+ *fill*         0x000000008000f838      0x7c8 
+                0x0000000080010000                __ftext_start = ABSOLUTE (.)
+
+.text           0x0000000080010000     0x28e0
+ *(.start)
+ .start         0x0000000080010000       0x64 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(crt0cxx.o)
+                0x0000000080010000                _start
+ *(.init)
+ *(SORT_NONE(.fini))
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ .text.startup.main
+                0x0000000080010064       0x24 hello.o
+                0x0000000080010064                main
+ .text.startup._GLOBAL__sub_I_vertices
+                0x0000000080010088      0x184 hello.o
+ .text.startup._GLOBAL__sub_I__ZN5psyqo3GPU9waitReadyEv
+                0x000000008001020c       0xd8 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .text.startup._GLOBAL__sub_I__ZN5psyqo6Kernel5abortEPKc
+                0x00000000800102e4       0xd8 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text._ZN5psyqo11Application7prepareEv
+                0x00000000800103bc        0x8 hello.o
+                0x00000000800103bc                psyqo::Application::prepare()
+ .text._ZN5psyqo11Application11createSceneEv
+                0x00000000800103c4        0x8 hello.o
+                0x00000000800103c4                psyqo::Application::createScene()
+ .text._ZN5psyqo5Scene5startENS0_11StartReasonE
+                0x00000000800103cc        0x8 hello.o
+                0x00000000800103cc                psyqo::Scene::start(psyqo::Scene::StartReason)
+ .text._ZN5psyqo5Scene8teardownENS0_14TearDownReasonE
+                0x00000000800103d4        0x8 hello.o
+                0x00000000800103d4                psyqo::Scene::teardown(psyqo::Scene::TearDownReason)
+ .text._ZN5psyqo4FontILj16EED2Ev
+                0x00000000800103dc        0x8 hello.o
+                0x00000000800103dc                psyqo::Font<16u>::~Font()
+                0x00000000800103dc                psyqo::Font<16u>::~Font()
+ .text._ZN5eastl8internal15function_detailILi8EFvvEE14DefaultInvokerERKNS0_15functor_storageILi8EEE
+                0x00000000800103e4        0x8 hello.o
+                0x00000000800103e4                eastl::internal::function_detail<8, void ()>::DefaultInvoker(eastl::internal::functor_storage<8> const&)
+ .text._ZN12_GLOBAL__N_110HelloSceneD2Ev
+                0x00000000800103ec        0x8 hello.o
+ .text._ZN5psyqo4FontILj16EE16getGlyphFragmentEb
+                0x00000000800103f4       0x40 hello.o
+                0x00000000800103f4                psyqo::Font<16u>::getGlyphFragment(bool)
+ .text._ZN5psyqo4FontILj16EE7forEachEON5eastl8functionIFvRNS_9Fragments25FixedFragmentWithPrologueINS_8FontBase22GlyphsFragmentPrologueENS_4Prim6SpriteELj48EEEEEE
+                0x0000000080010434       0x58 hello.o
+                0x0000000080010434                psyqo::Font<16u>::forEach(eastl::function<void (psyqo::Fragments::FixedFragmentWithPrologue<psyqo::FontBase::GlyphsFragmentPrologue, psyqo::Prim::Sprite, 48u>&)>&&)
+ .text._ZN12_GLOBAL__N_110HelloSceneD0Ev
+                0x000000008001048c        0x8 hello.o
+ .text._ZN5psyqo4FontILj16EED0Ev
+                0x0000000080010494        0x8 hello.o
+                0x0000000080010494                psyqo::Font<16u>::~Font()
+ .text._ZN12_GLOBAL__N_110HelloScene5frameEv
+                0x000000008001049c      0x218 hello.o
+ .text._ZN12_GLOBAL__N_15Hello11createSceneEv
+                0x00000000800106b4        0xc hello.o
+ .text._ZN12_GLOBAL__N_15Hello7prepareEv
+                0x00000000800106c0       0x40 hello.o
+ .text._ZN5psyqo11ApplicationD2Ev
+                0x0000000080010700       0x7c hello.o
+                0x0000000080010700                psyqo::Application::~Application()
+                0x0000000080010700                psyqo::Application::~Application()
+ .text._ZN5psyqo11ApplicationD0Ev
+                0x000000008001077c       0x2c hello.o
+                0x000000008001077c                psyqo::Application::~Application()
+ .text._ZN12_GLOBAL__N_15HelloD2Ev
+                0x00000000800107a8       0x10 hello.o
+ .text._ZN12_GLOBAL__N_15HelloD0Ev
+                0x00000000800107b8       0x2c hello.o
+ .text.isin     0x00000000800107e4       0x5c mtxstuff.o
+                0x00000000800107e4                isin
+ .text.icos     0x0000000080010840        0x8 mtxstuff.o
+                0x0000000080010840                icos
+ .text.RotMatrix
+                0x0000000080010848      0x120 mtxstuff.o
+                0x0000000080010848                RotMatrix
+ .text.TransMatrix
+                0x0000000080010968       0x24 mtxstuff.o
+                0x0000000080010968                TransMatrix
+ *fill*         0x000000008001098c        0x4 
+ .text          0x0000000080010990       0xe0 mulmat0.o
+                0x0000000080010990                MulMatrix0
+ .text          0x0000000080010a70       0xa0 pushpop.o
+                0x0000000080010a70                PushMatrix
+                0x0000000080010abc                PopMatrix
+ .text          0x0000000080010b10       0x70 InitGeom.o
+                0x0000000080010b10                InitGeom
+ .text.EnterCriticalSection
+                0x0000000080010b80       0x10 sissycalls.o
+                0x0000000080010b80                EnterCriticalSection
+ .text.ExitCriticalSection
+                0x0000000080010b90       0x10 sissycalls.o
+                0x0000000080010b90                ExitCriticalSection
+ .text.cxxmain  0x0000000080010ba0       0xbc /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(cxxglue.o)
+                0x0000000080010ba0                cxxmain
+ .text.abort    0x0000000080010c5c       0x10 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(cxxglue.o)
+                0x0000000080010c5c                abort
+ .text.__cxa_atexit
+                0x0000000080010c6c        0x8 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(cxxglue.o)
+                0x0000000080010c6c                __cxa_atexit
+ .text.memmove  0x0000000080010c74       0x70 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(cxxglue.o)
+                0x0000000080010c74                memmove
+ .text.__cxa_guard_acquire
+                0x0000000080010ce4       0x9c /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(cxxglue.o)
+                0x0000000080010ce4                __cxa_guard_acquire
+ .text.__cxa_guard_release
+                0x0000000080010d80       0x10 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(cxxglue.o)
+                0x0000000080010d80                __cxa_guard_release
+ .text._ZN5psyqo11Application15getCurrentSceneEv
+                0x0000000080010d90       0x20 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(application.o)
+                0x0000000080010d90                psyqo::Application::getCurrentScene()
+ .text._ZN5psyqo11Application3runEv
+                0x0000000080010db0      0x10c /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(application.o)
+                0x0000000080010db0                psyqo::Application::run()
+ .text._ZN5psyqo11Application9pushSceneEPNS_5SceneE
+                0x0000000080010ebc      0x14c /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(application.o)
+                0x0000000080010ebc                psyqo::Application::pushScene(psyqo::Scene*)
+ .text._ZN5eastl8internal20function_base_detailILi8EE21function_manager_baseIZN5psyqo3GPU10initializeERKNS5_13ConfigurationEEUlvE_vE7ManagerEPvSB_NS2_17ManagerOperationsE
+                0x0000000080011008       0x2c /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .text._ZN5eastl8internal20function_base_detailILi8EE21function_manager_baseIZN5psyqo3GPU10initializeERKNS5_13ConfigurationEEUlvE0_vE7ManagerEPvSB_NS2_17ManagerOperationsE
+                0x0000000080011034       0x2c /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .text._ZN5eastl8internal20function_base_detailILi8EE21function_manager_baseIZN5psyqo3GPU4flipEvEUlvE_vE7ManagerEPvS8_NS2_17ManagerOperationsE
+                0x0000000080011060       0x2c /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .text._ZN5eastl8internal20function_base_detailILi8EE16function_managerIZN5psyqo3GPU4flipEvEUlvE_vJEE7InvokerERKNS0_15functor_storageILi8EEE
+                0x000000008001108c       0x14 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .text._ZN5eastl8internal20function_base_detailILi8EE16function_managerIZN5psyqo3GPU10initializeERKNS5_13ConfigurationEEUlvE_vJEE7InvokerERKNS0_15functor_storageILi8EEE
+                0x00000000800110a0       0x20 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .text._ZN5psyqo6Kernel6assertEbPKc
+                0x00000000800110c0       0x18 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+                0x00000000800110c0                psyqo::Kernel::assert(bool, char const*)
+ .text._ZN5psyqo3GPU9waitReadyEv
+                0x00000000800110d8       0x24 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+                0x00000000800110d8                psyqo::GPU::waitReady()
+ .text._ZN5psyqo4Prim7ScissorC2Ev
+                0x00000000800110fc       0x20 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+                0x00000000800110fc                psyqo::Prim::Scissor::Scissor()
+                0x00000000800110fc                psyqo::Prim::Scissor::Scissor()
+ .text._ZN5psyqo3GPU10getScissorERNS_4Prim7ScissorE
+                0x000000008001111c       0x84 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+                0x000000008001111c                psyqo::GPU::getScissor(psyqo::Prim::Scissor&)
+ .text._ZNK5psyqo3GPU8getClearERNS_4Prim8FastFillENS_5ColorE
+                0x00000000800111a0       0x48 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+                0x00000000800111a0                psyqo::GPU::getClear(psyqo::Prim::FastFill&, psyqo::Color) const
+ .text._ZN5psyqo3GPU13sendPrimitiveINS_4Prim8FastFillEEEvRKT_
+                0x00000000800111e8       0x44 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+                0x00000000800111e8                void psyqo::GPU::sendPrimitive<psyqo::Prim::FastFill>(psyqo::Prim::FastFill const&)
+ .text._ZN5psyqo3GPU5clearENS_5ColorE
+                0x000000008001122c       0x38 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+                0x000000008001122c                psyqo::GPU::clear(psyqo::Color)
+ .text._ZN5psyqo3GPU13sendPrimitiveINS_4Prim7ScissorEEEvRKT_
+                0x0000000080011264       0x44 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+                0x0000000080011264                void psyqo::GPU::sendPrimitive<psyqo::Prim::Scissor>(psyqo::Prim::Scissor const&)
+ .text._ZN5psyqo3GPU13enableScissorEv
+                0x00000000800112a8       0x3c /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+                0x00000000800112a8                psyqo::GPU::enableScissor()
+ .text._ZN5eastl8internal15function_detailILi8EFvvEE7DestroyEv
+                0x00000000800112e4       0x20 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+                0x00000000800112e4                eastl::internal::function_detail<8, void ()>::Destroy()
+ .text._ZN5eastl8internal20function_base_detailILi8EE16function_managerIZN5psyqo3GPU10initializeERKNS5_13ConfigurationEEUlvE0_vJEE7InvokerERKNS0_15functor_storageILi8EEE
+                0x0000000080011304       0xb4 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .text._ZN5psyqo3GPU10initializeERKNS0_13ConfigurationE
+                0x00000000800113b8      0x250 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+                0x00000000800113b8                psyqo::GPU::initialize(psyqo::GPU::Configuration const&)
+ .text._ZN5eastl8internal15function_detailILi8EFvvEEaSEOS3_.isra.0
+                0x0000000080011608       0x84 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .text._ZN5psyqo3GPU9sendChainEON5eastl8functionIFvvEEENS_3DMA11DmaCallbackE
+                0x000000008001168c       0xe0 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+                0x000000008001168c                psyqo::GPU::sendChain(eastl::function<void ()>&&, psyqo::DMA::DmaCallback)
+ .text._ZN5eastl8internal15function_detailILi8EFvjEE7DestroyEv
+                0x000000008001176c       0x20 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+                0x000000008001176c                eastl::internal::function_detail<8, void (unsigned int)>::Destroy()
+ .text._ZN5eastl24fixed_pool_with_overflowINS_9allocatorEE10deallocateEPv
+                0x000000008001178c       0x58 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+                0x000000008001178c                eastl::fixed_pool_with_overflow<eastl::allocator>::deallocate(void*)
+ .text._ZN5eastl10fixed_listIN12_GLOBAL__N_15TimerELj32ELb1ENS_9allocatorEED2Ev
+                0x00000000800117e4       0x68 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .text._ZN5eastl4listIN12_GLOBAL__N_15TimerENS_20fixed_node_allocatorILj40ELj32ELj4ELj0ELb1ENS_9allocatorEEEE7DoEraseEPNS_12ListNodeBaseE.constprop.0
+                0x000000008001184c       0x64 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .text._ZN5psyqo3GPU13pumpCallbacksEv
+                0x00000000800118b0      0x130 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+                0x00000000800118b0                psyqo::GPU::pumpCallbacks()
+ .text._ZN5psyqo3GPU4flipEv
+                0x00000000800119e0       0xf8 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+                0x00000000800119e0                psyqo::GPU::flip()
+ .text._ZN5psyqo6KernelL24fastLeaveCriticalSectionEv
+                0x0000000080011ad8       0x1c /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+ .text._ZN12_GLOBAL__N_115getInitializersEv
+                0x0000000080011af4       0x94 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+ .text._ZN12_GLOBAL__N_119getBeginFrameEventsEv
+                0x0000000080011b88       0x94 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+ .text._ZN5psyqo6KernelL24fastEnterCriticalSectionEv.isra.0
+                0x0000000080011c1c       0x20 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+ .text._ZN5psyqo6Kernel5abortEPKc
+                0x0000000080011c3c       0x14 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+                0x0000000080011c3c                psyqo::Kernel::abort(char const*)
+ .text._ZN5psyqo6Kernel9enableDmaENS0_3DMAEj
+                0x0000000080011c50       0x6c /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+                0x0000000080011c50                psyqo::Kernel::enableDma(psyqo::Kernel::DMA, unsigned int)
+ .text._ZNK5eastl8functionIFvvEEclEv
+                0x0000000080011cbc       0x10 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+                0x0000000080011cbc                eastl::function<void ()>::operator()() const
+ .text._ZN12_GLOBAL__N_110trampolineEi
+                0x0000000080011ccc       0x20 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+ .text._ZN5psyqo6Kernel8Internal13pumpCallbacksEv
+                0x0000000080011cec       0x90 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+                0x0000000080011cec                psyqo::Kernel::Internal::pumpCallbacks()
+ .text._ZN5psyqo6Kernel8Internal7prepareEv
+                0x0000000080011d7c       0xd4 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+                0x0000000080011d7c                psyqo::Kernel::Internal::prepare()
+ .text._ZN5psyqo6Kernel8Internal10beginFrameEv
+                0x0000000080011e50       0x50 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+                0x0000000080011e50                psyqo::Kernel::Internal::beginFrame()
+ .text._ZZN5psyqo6Kernel8Internal7prepareEvENUlvE_4_FUNEv
+                0x0000000080011ea0       0xf4 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+ .text.__tcf_1  0x0000000080011f94       0x48 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+ .text.__tcf_0  0x0000000080011fdc       0x48 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+ .text._ZN5eastl8destructIPNS_8functionIFvvEEEEEvT_S5_
+                0x0000000080012024       0x44 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+                0x0000000080012024                void eastl::destruct<eastl::function<void ()>*>(eastl::function<void ()>*, eastl::function<void ()>*)
+ .text._ZN5eastl12fixed_vectorINS_8functionIFvvEEELj12ELb1ENS_9allocatorEED2Ev
+                0x0000000080012068       0x60 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+                0x0000000080012068                eastl::fixed_vector<eastl::function<void ()>, 12u, true, eastl::allocator>::~fixed_vector()
+                0x0000000080012068                eastl::fixed_vector<eastl::function<void ()>, 12u, true, eastl::allocator>::~fixed_vector()
+ .text._ZN5eastl12fixed_vectorINS_8functionIFvvEEELj128ELb1ENS_9allocatorEED2Ev
+                0x00000000800120c8       0x60 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+                0x00000000800120c8                eastl::fixed_vector<eastl::function<void ()>, 128u, true, eastl::allocator>::~fixed_vector()
+                0x00000000800120c8                eastl::fixed_vector<eastl::function<void ()>, 128u, true, eastl::allocator>::~fixed_vector()
+ .text._ZN5eastl11ring_bufferINS_8functionIFvvEEENS_12fixed_vectorIS3_Lj129ELb0ENS_15dummy_allocatorEEES5_ED2Ev
+                0x0000000080012128       0x10 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+                0x0000000080012128                eastl::ring_buffer<eastl::function<void ()>, eastl::fixed_vector<eastl::function<void ()>, 129u, false, eastl::dummy_allocator>, eastl::dummy_allocator>::~ring_buffer()
+                0x0000000080012128                eastl::ring_buffer<eastl::function<void ()>, eastl::fixed_vector<eastl::function<void ()>, 129u, false, eastl::dummy_allocator>, eastl::dummy_allocator>::~ring_buffer()
+ .text._ZN5eastl8internal15function_detailILi8EFvvEE4MoveEOS3_
+                0x0000000080012138       0x60 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+                0x0000000080012138                eastl::internal::function_detail<8, void ()>::Move(eastl::internal::function_detail<8, void ()>&&)
+ .text._ZN5eastl8internal15function_detailILi8EFvvEEaSEOS3_.isra.0
+                0x0000000080012198       0x48 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+ .text._ZN5psyqo6Kernel20queueCallbackFromISREON5eastl8functionIFvvEEE
+                0x00000000800121e0       0x90 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+                0x00000000800121e0                psyqo::Kernel::queueCallbackFromISR(eastl::function<void ()>&&)
+ .text._ZN5psyqo6Kernel16registerDmaEventENS0_3DMAEON5eastl8functionIFvvEEE
+                0x0000000080012270       0x90 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+                0x0000000080012270                psyqo::Kernel::registerDmaEvent(psyqo::Kernel::DMA, eastl::function<void ()>&&)
+ .text._ZN5psyqo6Kernel9openEventEjjjON5eastl8functionIFvvEEE
+                0x0000000080012300       0xec /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+                0x0000000080012300                psyqo::Kernel::openEvent(unsigned int, unsigned int, unsigned int, eastl::function<void ()>&&)
+ .text._ZN5eastl28uninitialized_default_fill_nIPNS_8functionIFvvEEEjEEvT_T0_
+                0x00000000800123ec       0x34 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+                0x00000000800123ec                void eastl::uninitialized_default_fill_n<eastl::function<void ()>*, unsigned int>(eastl::function<void ()>*, unsigned int)
+ .text._ZN5eastl8internal15function_detailILi8EFvvEEC2EOS3_
+                0x0000000080012420       0x24 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+                0x0000000080012420                eastl::internal::function_detail<8, void ()>::function_detail(eastl::internal::function_detail<8, void ()>&&)
+                0x0000000080012420                eastl::internal::function_detail<8, void ()>::function_detail(eastl::internal::function_detail<8, void ()>&&)
+ .text._ZN5eastl22uninitialized_move_ptrIPNS_8functionIFvvEEES4_S4_EET1_T_T0_S5_
+                0x0000000080012444       0x58 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+                0x0000000080012444                eastl::function<void ()>* eastl::uninitialized_move_ptr<eastl::function<void ()>*, eastl::function<void ()>*, eastl::function<void ()>*>(eastl::function<void ()>*, eastl::function<void ()>*, eastl::function<void ()>*)
+ .text._ZN5eastl11ring_bufferINS_8functionIFvvEEENS_12fixed_vectorIS3_Lj129ELb0ENS_15dummy_allocatorEEES5_EC2Ej
+                0x000000008001249c       0xec /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+                0x000000008001249c                eastl::ring_buffer<eastl::function<void ()>, eastl::fixed_vector<eastl::function<void ()>, 129u, false, eastl::dummy_allocator>, eastl::dummy_allocator>::ring_buffer(unsigned int)
+                0x000000008001249c                eastl::ring_buffer<eastl::function<void ()>, eastl::fixed_vector<eastl::function<void ()>, 129u, false, eastl::dummy_allocator>, eastl::dummy_allocator>::ring_buffer(unsigned int)
+ .text._ZN5psyqo5Scene3gpuEv
+                0x0000000080012588        0xc /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(scene.o)
+                0x0000000080012588                psyqo::Scene::gpu()
+ .text._ZN5eastl15fixed_pool_base4initEPvjjjj
+                0x0000000080012594       0x80 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(fixed_pool.o)
+                0x0000000080012594                eastl::fixed_pool_base::init(void*, unsigned int, unsigned int, unsigned int, unsigned int)
+ .text.sbrk     0x0000000080012614       0x50 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(alloc.o)
+ .text.base_malloc
+                0x0000000080012664      0x14c /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(alloc.o)
+ .text.base_free
+                0x00000000800127b0       0xf8 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(alloc.o)
+ .text._Znwj    0x00000000800128a8        0x8 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(alloc.o)
+                0x00000000800128a8                operator new(unsigned int)
+ .text._ZdaPv   0x00000000800128b0        0x8 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(alloc.o)
+                0x00000000800128b0                operator delete[](void*)
+ .text._ZdlPvj  0x00000000800128b8        0x8 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(alloc.o)
+                0x00000000800128b8                operator delete(void*, unsigned int)
+ .text.psyqo_heap_start
+                0x00000000800128c0       0x10 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(alloc.o)
+                0x00000000800128c0                psyqo_heap_start
+ .text.psyqo_heap_end
+                0x00000000800128d0       0x10 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(alloc.o)
+                0x00000000800128d0                psyqo_heap_end
+                0x00000000800128e0                . = ALIGN (0x10)
+ *(.init)
+                0x00000000800128e0                . = ALIGN (0x10)
+ *(.fini)
+
+.ramtext        0x00000000800128e0        0xc
+ .ramtext       0x00000000800128e0        0xc /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(printf.o)
+                0x00000000800128e0                ramsyscall_printf
+                0x00000000800128f0                . = ALIGN (0x10)
+                0x00000000800128f0                __text_end = .
+                0x00000000800128f0                __ftext_end = ABSOLUTE (.)
+                0x00000000800128f0                __fdata_start = ABSOLUTE (.)
+
+.rodata         0x00000000800128f0      0x324
+ *(.rodata .rodata.* .rdata .rdata.* .gnu.linkonce.r.*)
+ .rodata._ZTVN5psyqo11ApplicationE
+                0x00000000800128f0       0x18 hello.o
+                0x00000000800128f0                vtable for psyqo::Application
+ .rodata._ZTVN5psyqo4FontILj16EEE
+                0x0000000080012908       0x18 hello.o
+                0x0000000080012908                vtable for psyqo::Font<16u>
+ .rodata        0x0000000080012920       0x40 hello.o
+ .rodata        0x0000000080012960       0x10 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(crt0cxx.o)
+ .rodata.str1.4
+                0x0000000080012970       0x6e /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(application.o)
+                                         0x70 (size before relaxing)
+ *fill*         0x00000000800129de        0x2 
+ .rodata.str1.4
+                0x00000000800129e0       0xf1 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+                                         0xf4 (size before relaxing)
+ *fill*         0x0000000080012ad1        0x3 
+ .rodata.str1.4
+                0x0000000080012ad4      0x108 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+                0x0000000080012be0                . = ALIGN (0x10)
+ *fill*         0x0000000080012bdc        0x4 
+                0x0000000080012be0                __preinit_array_start = .
+ *(.preinit_array)
+                0x0000000080012be0                __preinit_array_end = .
+                0x0000000080012be0                . = ALIGN (0x10)
+                0x0000000080012be0                __init_array_start = .
+ *(SORT_BY_NAME(.init_array.*))
+ *(.init_array)
+                0x0000000080012be0                . = ALIGN (0x10)
+ *crtbegin.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o) .ctors)
+ .ctors         0x0000000080012be0        0x4 hello.o
+ .ctors         0x0000000080012be4        0x4 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .ctors         0x0000000080012be8        0x4 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+ *(SORT_BY_NAME(.ctors.*))
+ *crtend.o(.ctors)
+                0x0000000080012bec                __init_array_end = .
+                0x0000000080012bf0                . = ALIGN (0x10)
+ *fill*         0x0000000080012bec        0x4 
+                0x0000000080012bf0                __fini_array_start = .
+ *(.fini_array)
+ *(SORT_BY_NAME(.fini_array.*))
+ *crtbegin.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o) .dtors)
+ *(SORT_BY_NAME(.dtors.*))
+ *crtend.o(.dtors)
+                0x0000000080012bf0                __fini_array_end = .
+                0x0000000080012bf0                __build_id = .
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x0000000080012bf0       0x24 hello.o
+                0x0000000080012c14                __build_id_end = .
+
+.rodata1
+ *(.rodata1)
+                0x0000000080012c14                __data_start = .
+
+.data           0x0000000080012c20      0x3e0
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data          0x0000000080012c20      0x150 hello.o
+                0x0000000080012c20                cube_norms
+                0x0000000080012c50                vertices
+ .data          0x0000000080012d70       0x20 pushpop.o
+ *(.data1)
+ *(.sdata .sdata.* .gnu.linkonce.s.*)
+ *(.sdata2 .sdata2.* .gnu.linkonce.s2.*)
+ *(.got.plt)
+ *(.got)
+                0x0000000080013000                . = ALIGN (0x800)
+ *fill*         0x0000000080012d90      0x270 
+                0x0000000080013000                __data_end = .
+                0x0000000080013000                __fdata_end = .
+                0x0000000080013000                __bss_start = .
+
+.sbss           0x0000000080013000     0x5390
+ *(.dynsbss)
+ *(.sbss .sbss.* .gnu.linkonce.sb.*)
+ .sbss          0x0000000080013000        0x4 hello.o
+ *fill*         0x0000000080013004        0x4 
+ .sbss          0x0000000080013008       0x10 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+ .sbss          0x0000000080013018       0x10 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(alloc.o)
+ *(.scommon)
+ *(.dynbss)
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ *fill*         0x0000000080013028        0x8 
+ .bss           0x0000000080013030     0x3470 hello.o
+                0x0000000080013030                initialized
+                0x0000000080013034                rot
+                0x000000008001303c                pos
+                0x0000000080013048                tmtx
+ .bss           0x00000000800164a0       0x10 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(cxxglue.o)
+                0x00000000800164a0                __dso_handle
+ .bss           0x00000000800164b0      0x550 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .bss           0x0000000080016a00     0x1990 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+ *(COMMON)
+                0x0000000080018390                . = ALIGN (0x4)
+                0x0000000080018390                __bss_end = .
+                0x0000000080018390                __heap_start = __heap_base
+                0x000000008000f800                . = (ADDR (.text) - 0x800)
+                0x000000008000f800                __end = .
+
+/DISCARD/
+ *(.MIPS.abiflags)
+
+/DISCARD/
+ *(.rel.iplt)
+ *(.rela.iplt)
+ *(.rel.plt)
+ *(.rela.plt)
+ *(.plt)
+ *(.iplt)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+
+.scratchpad
+ *(.scratchpad)
+OUTPUT(hello.elf elf32-tradlittlemips)
+
+.mdebug.abi32   0x0000000000000000        0x0
+ .mdebug.abi32  0x0000000000000000        0x0 hello.o
+ .mdebug.abi32  0x0000000000000000        0x0 mtxstuff.o
+ .mdebug.abi32  0x0000000000000000        0x0 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(cxxglue.o)
+ .mdebug.abi32  0x0000000000000000        0x0 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(application.o)
+ .mdebug.abi32  0x0000000000000000        0x0 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .mdebug.abi32  0x0000000000000000        0x0 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+ .mdebug.abi32  0x0000000000000000        0x0 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(scene.o)
+ .mdebug.abi32  0x0000000000000000        0x0 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(fixed_pool.o)
+ .mdebug.abi32  0x0000000000000000        0x0 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(alloc.o)
+
+.comment        0x0000000000000000       0x25
+ .comment       0x0000000000000000       0x25 hello.o
+                                         0x26 (size before relaxing)
+ .comment       0x0000000000000025       0x26 mtxstuff.o
+ .comment       0x0000000000000025       0x26 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(cxxglue.o)
+ .comment       0x0000000000000025       0x26 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(application.o)
+ .comment       0x0000000000000025       0x26 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .comment       0x0000000000000025       0x26 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+ .comment       0x0000000000000025       0x26 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(scene.o)
+ .comment       0x0000000000000025       0x26 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(fixed_pool.o)
+ .comment       0x0000000000000025       0x26 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(alloc.o)
+
+.gnu.attributes
+                0x0000000000000000       0x10
+ .gnu.attributes
+                0x0000000000000000       0x10 hello.o
+ .gnu.attributes
+                0x0000000000000010       0x10 mtxstuff.o
+ .gnu.attributes
+                0x0000000000000020       0x10 mulmat0.o
+ .gnu.attributes
+                0x0000000000000030       0x10 pushpop.o
+ .gnu.attributes
+                0x0000000000000040       0x10 InitGeom.o
+ .gnu.attributes
+                0x0000000000000050       0x10 sissycalls.o
+ .gnu.attributes
+                0x0000000000000060       0x10 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(crt0cxx.o)
+ .gnu.attributes
+                0x0000000000000070       0x10 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(cxxglue.o)
+ .gnu.attributes
+                0x0000000000000080       0x10 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(application.o)
+ .gnu.attributes
+                0x0000000000000090       0x10 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .gnu.attributes
+                0x00000000000000a0       0x10 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+ .gnu.attributes
+                0x00000000000000b0       0x10 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(scene.o)
+ .gnu.attributes
+                0x00000000000000c0       0x10 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(fixed_pool.o)
+ .gnu.attributes
+                0x00000000000000d0       0x10 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(printf.o)
+ .gnu.attributes
+                0x00000000000000e0       0x10 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(alloc.o)
+
+.pdr            0x0000000000000000        0x0
+ .pdr           0x0000000000000000        0x0 mulmat0.o
+ .pdr           0x0000000000000000        0x0 pushpop.o
+ .pdr           0x0000000000000000        0x0 InitGeom.o
+ .pdr           0x0000000000000000        0x0 sissycalls.o
+ .pdr           0x0000000000000000        0x0 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(crt0cxx.o)
+ .pdr           0x0000000000000000        0x0 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(printf.o)
+
+.debug_info     0x0000000000000000    0x2aaaf
+ .debug_info    0x0000000000000000     0x97cc hello.o
+ .debug_info    0x00000000000097cc      0x4a3 mtxstuff.o
+ .debug_info    0x0000000000009c6f       0x26 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(crt0cxx.o)
+ .debug_info    0x0000000000009c95      0x828 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(cxxglue.o)
+ .debug_info    0x000000000000a4bd     0x4ffd /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(application.o)
+ .debug_info    0x000000000000f4ba     0xca0c /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .debug_info    0x000000000001bec6     0xc7da /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+ .debug_info    0x00000000000286a0     0x18b4 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(scene.o)
+ .debug_info    0x0000000000029f54      0x5ef /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(fixed_pool.o)
+ .debug_info    0x000000000002a543       0x26 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(printf.o)
+ .debug_info    0x000000000002a569      0x546 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(alloc.o)
+
+.debug_abbrev   0x0000000000000000     0x4a45
+ .debug_abbrev  0x0000000000000000      0xeaa hello.o
+ .debug_abbrev  0x0000000000000eaa      0x16a mtxstuff.o
+ .debug_abbrev  0x0000000000001014       0x14 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(crt0cxx.o)
+ .debug_abbrev  0x0000000000001028      0x328 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(cxxglue.o)
+ .debug_abbrev  0x0000000000001350      0xb6f /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(application.o)
+ .debug_abbrev  0x0000000000001ebf     0x10db /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .debug_abbrev  0x0000000000002f9a      0xe22 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+ .debug_abbrev  0x0000000000003dbc      0x718 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(scene.o)
+ .debug_abbrev  0x00000000000044d4      0x2e3 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(fixed_pool.o)
+ .debug_abbrev  0x00000000000047b7       0x14 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(printf.o)
+ .debug_abbrev  0x00000000000047cb      0x27a /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(alloc.o)
+
+.debug_loc      0x0000000000000000     0x8bdc
+ .debug_loc     0x0000000000000000      0xe2d hello.o
+ .debug_loc     0x0000000000000e2d      0x21e mtxstuff.o
+ .debug_loc     0x000000000000104b      0x730 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(cxxglue.o)
+ .debug_loc     0x000000000000177b      0x87e /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(application.o)
+ .debug_loc     0x0000000000001ff9     0x380a /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .debug_loc     0x0000000000005803     0x2e25 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+ .debug_loc     0x0000000000008628       0x85 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(scene.o)
+ .debug_loc     0x00000000000086ad       0xf8 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(fixed_pool.o)
+ .debug_loc     0x00000000000087a5      0x437 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(alloc.o)
+
+.debug_aranges  0x0000000000000000      0x588
+ .debug_aranges
+                0x0000000000000000       0xb8 hello.o
+ .debug_aranges
+                0x00000000000000b8       0x38 mtxstuff.o
+ .debug_aranges
+                0x00000000000000f0       0x20 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(crt0cxx.o)
+ .debug_aranges
+                0x0000000000000110       0x80 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(cxxglue.o)
+ .debug_aranges
+                0x0000000000000190       0x38 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(application.o)
+ .debug_aranges
+                0x00000000000001c8      0x1c8 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .debug_aranges
+                0x0000000000000390      0x130 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+ .debug_aranges
+                0x00000000000004c0       0x30 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(scene.o)
+ .debug_aranges
+                0x00000000000004f0       0x20 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(fixed_pool.o)
+ .debug_aranges
+                0x0000000000000510       0x20 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(printf.o)
+ .debug_aranges
+                0x0000000000000530       0x58 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(alloc.o)
+
+.debug_ranges   0x0000000000000000     0x1ad8
+ .debug_ranges  0x0000000000000000      0x3b8 hello.o
+ .debug_ranges  0x00000000000003b8       0x28 mtxstuff.o
+ .debug_ranges  0x00000000000003e0       0xd0 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(cxxglue.o)
+ .debug_ranges  0x00000000000004b0      0x178 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(application.o)
+ .debug_ranges  0x0000000000000628      0xac8 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .debug_ranges  0x00000000000010f0      0x958 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+ .debug_ranges  0x0000000000001a48       0x20 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(scene.o)
+ .debug_ranges  0x0000000000001a68       0x10 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(fixed_pool.o)
+ .debug_ranges  0x0000000000001a78       0x60 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(alloc.o)
+
+.debug_line     0x0000000000000000     0x6af5
+ .debug_line    0x0000000000000000      0xe21 hello.o
+ .debug_line    0x0000000000000e21      0x281 mtxstuff.o
+ .debug_line    0x00000000000010a2       0x5a /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(crt0cxx.o)
+ .debug_line    0x00000000000010fc      0x53c /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(cxxglue.o)
+ .debug_line    0x0000000000001638      0x898 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(application.o)
+ .debug_line    0x0000000000001ed0     0x2633 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .debug_line    0x0000000000004503     0x1ae7 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+ .debug_line    0x0000000000005fea      0x445 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(scene.o)
+ .debug_line    0x000000000000642f      0x2a0 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(fixed_pool.o)
+ .debug_line    0x00000000000066cf       0x4d /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(printf.o)
+ .debug_line    0x000000000000671c      0x3d9 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(alloc.o)
+
+.debug_str      0x0000000000000000    0x2517e
+ .debug_str     0x0000000000000000     0xcde5 hello.o
+                                       0xd0d2 (size before relaxing)
+ .debug_str     0x000000000000cde5       0x37 mtxstuff.o
+                                        0x311 (size before relaxing)
+ .debug_str     0x000000000000ce1c       0x62 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(crt0cxx.o)
+ .debug_str     0x000000000000ce7e      0x29d /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(cxxglue.o)
+                                        0x43c (size before relaxing)
+ .debug_str     0x000000000000d11b      0xf7d /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(application.o)
+                                       0x7a6b (size before relaxing)
+ .debug_str     0x000000000000e098     0x4b63 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+                                       0x700e (size before relaxing)
+ .debug_str     0x0000000000012bfb    0x1248b /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+                                      0x14526 (size before relaxing)
+ .debug_str     0x0000000000025086        0xe /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(scene.o)
+                                       0x1c45 (size before relaxing)
+ .debug_str     0x0000000000025094       0x2b /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(fixed_pool.o)
+                                        0x863 (size before relaxing)
+ .debug_str     0x00000000000250bf       0x1c /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(printf.o)
+                                         0x65 (size before relaxing)
+ .debug_str     0x00000000000250db       0xa3 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(alloc.o)
+                                        0x302 (size before relaxing)
+
+.debug_frame    0x0000000000000000     0x117c
+ .debug_frame   0x0000000000000000      0x298 hello.o
+ .debug_frame   0x0000000000000298       0x60 mtxstuff.o
+ .debug_frame   0x00000000000002f8      0x178 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(cxxglue.o)
+ .debug_frame   0x0000000000000470       0x94 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(application.o)
+ .debug_frame   0x0000000000000504      0x608 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(gpu.o)
+ .debug_frame   0x0000000000000b0c      0x518 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(kernel.o)
+ .debug_frame   0x0000000000001024       0x40 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(scene.o)
+ .debug_frame   0x0000000000001064       0x20 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(fixed_pool.o)
+ .debug_frame   0x0000000000001084       0xf8 /home/furry/Documents/PSXPROJ/hello/third_party/nugget/psyqo/libpsyqo.a(alloc.o)

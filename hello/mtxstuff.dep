@@ -1,0 +1,4 @@
+mtxstuff.o: mtxstuff.cpp fix16.hpp fix16.h \
+ /usr/lib/gcc-cross/mipsel-linux-gnu/10/include/stdint.h \
+ /usr/lib/gcc-cross/mipsel-linux-gnu/10/include/stdint-gcc.h inline_n.h \
+ sincosmath.h matrixstuff.h

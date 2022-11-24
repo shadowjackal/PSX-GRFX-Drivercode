@@ -1,0 +1,6 @@
+../common/crt0/cxxglue.o: ../common/crt0/cxxglue.c \
+ /usr/lib/gcc-cross/mipsel-linux-gnu/10/include/stdatomic.h \
+ /usr/lib/gcc-cross/mipsel-linux-gnu/10/include/stddef.h \
+ /home/furry/Documents/PSXPROJ/hello/third_party/nugget/common/hardware/pcsxhw.h \
+ /usr/lib/gcc-cross/mipsel-linux-gnu/10/include/stdint.h \
+ /usr/lib/gcc-cross/mipsel-linux-gnu/10/include/stdint-gcc.h

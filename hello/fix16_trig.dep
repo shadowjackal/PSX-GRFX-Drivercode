@@ -1,0 +1,23 @@
+fix16_trig.o: fix16_trig.c \
+ /usr/lib/gcc-cross/mipsel-linux-gnu/10/include/limits.h \
+ /usr/lib/gcc-cross/mipsel-linux-gnu/10/include/syslimits.h \
+ /usr/mipsel-linux-gnu/include/limits.h \
+ /usr/mipsel-linux-gnu/include/bits/libc-header-start.h \
+ /usr/mipsel-linux-gnu/include/features.h \
+ /usr/mipsel-linux-gnu/include/features-time64.h \
+ /usr/mipsel-linux-gnu/include/bits/wordsize.h \
+ /usr/mipsel-linux-gnu/include/sgidefs.h \
+ /usr/mipsel-linux-gnu/include/bits/timesize.h \
+ /usr/mipsel-linux-gnu/include/stdc-predef.h \
+ /usr/mipsel-linux-gnu/include/sys/cdefs.h \
+ /usr/mipsel-linux-gnu/include/bits/long-double.h \
+ /usr/mipsel-linux-gnu/include/gnu/stubs.h \
+ /usr/mipsel-linux-gnu/include/gnu/stubs-o32_hard.h \
+ /usr/mipsel-linux-gnu/include/bits/posix1_lim.h \
+ /usr/mipsel-linux-gnu/include/bits/local_lim.h \
+ /usr/mipsel-linux-gnu/include/linux/limits.h \
+ /usr/mipsel-linux-gnu/include/bits/pthread_stack_min-dynamic.h \
+ /usr/mipsel-linux-gnu/include/bits/pthread_stack_min.h \
+ /usr/mipsel-linux-gnu/include/bits/posix2_lim.h fix16.h \
+ /usr/lib/gcc-cross/mipsel-linux-gnu/10/include/stdint.h \
+ /usr/lib/gcc-cross/mipsel-linux-gnu/10/include/stdint-gcc.h

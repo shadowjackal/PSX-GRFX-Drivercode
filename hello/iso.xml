@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	This file is processed by CMake and used by mkpsxiso to build the CD image.
+
+	NOTE: all paths are relative to the build directory; if you want to include
+	a file from the source tree, you'll have to prepend its path with
+	${PROJECT_SOURCE_DIR}.
+-->
+<iso_project
+	image_name="Krasnaya.bin"
+	cue_sheet="Krasnaya.cue"
+>
+	<track type="data">
+		<identifiers
+			system			="PLAYSTATION"
+			volume			="Jackal"
+			volume_set		="Jackal"
+			publisher		="CHELOVEK REPUBLIC"
+			data_preparer	="ME (Jackal)"
+			application		="PLAYSTATION"
+			copyright		="MY MOM!;1"
+		/>
+
+		<directory_tree>
+			<file name="system.cnf"		type="data" source="system.cnf" />
+			<file name="HELLO.EXE"	type="data" source="hello.ps-exe" />
+
+			<dummy sectors="1024"/>
+		</directory_tree>
+	</track>
+	
+	<!--<track type="audio" source="track2.wav" />-->
+</iso_project>

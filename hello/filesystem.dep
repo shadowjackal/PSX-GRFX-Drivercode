@@ -1,0 +1,8 @@
+filesystem.o: filesystem.c \
+ /usr/lib/gcc-cross/mipsel-linux-gnu/10/include/stddef.h \
+ /home/furry/Documents/PSXPROJ/hello/third_party/nugget/common/psxlibc/device.h \
+ /usr/lib/gcc-cross/mipsel-linux-gnu/10/include/stdint.h \
+ /usr/lib/gcc-cross/mipsel-linux-gnu/10/include/stdint-gcc.h \
+ /home/furry/Documents/PSXPROJ/hello/third_party/nugget/common/psxlibc/stdio.h \
+ /home/furry/Documents/PSXPROJ/hello/third_party/nugget/common/psxlibc/direntry.h \
+ /home/furry/Documents/PSXPROJ/hello/third_party/nugget/openbios/fileio/fileio.h

@@ -1,0 +1,3 @@
+fix16.o: fix16.c fix16.h \
+ /usr/lib/gcc-cross/mipsel-linux-gnu/10/include/stdint.h \
+ /usr/lib/gcc-cross/mipsel-linux-gnu/10/include/stdint-gcc.h int64.h
